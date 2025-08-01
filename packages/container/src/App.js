@@ -1,5 +1,5 @@
 import React from "react";
-import { mount } from "marketing/MarketingApp";
+//teset comment
 
 import MarketingApp from "./components/MarketingApp";
 
