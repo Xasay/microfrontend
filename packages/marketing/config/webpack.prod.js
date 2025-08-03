@@ -7,6 +7,8 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
+    //bu publicPath gosterir ki deploy olunan main.js file hansi folderlerin altinda yerlesecek
+    publicPath: "/marketing/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
