@@ -17,7 +17,7 @@ const prodConfig = {
       name: "container",
       remotes: {
         //butun proyektler eyni domain uzerinden istidam edilecek . Amma muxtelif folderlerde
-        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
