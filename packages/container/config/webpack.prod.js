@@ -10,7 +10,7 @@ const prodConfig = {
   output: {
     filename: "[name].[contenthash].js",
     //bu publicPath gosterir ki deploy olunan main.js file hansi folderlerin altinda yerlesecek
-    publicPath: "/conatiner/latest/",
+    publicPath: "/container/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
